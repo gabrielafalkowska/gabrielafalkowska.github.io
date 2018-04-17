@@ -1,0 +1,101 @@
+*{
+    transition: all 0.4s linear
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: darkslategrey;
+    font-family: 'Poiret One', cursive;}
+
+h1 {
+    color: whitesmoke;
+    text-align: right;
+    font-size: 32px; 
+    font-style: inherit; 
+    }
+
+h2 {
+    text-align: right
+}
+
+h3 {
+    text-align: right
+}
+a {
+    text-decoration: none;
+    color: darkgrey
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    background: grey;
+    padding: 15px 40px ;
+    margin-bottom: 40px;
+    border: 3px dashed yellowgreen;
+   }
+
+   p:hover{
+       color: grey;
+       background: yellowgreen;
+
+   }
+.square {
+    width: 100%;
+    height: 100px;
+    background: grey;
+   }
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background: greenyellow;
+    border-radius: 50px;
+    }
+@media (max-width: 600px) {
+    body {
+        background: grey;
+    }
+   }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 500px;
+    background: url('img/ocean.jpg');
+    background-size: cover;
+
+
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+span {
+    display: block;
+}
+
+.centered {
+    text-align: right;
+}
+
+.avatar {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 240px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
